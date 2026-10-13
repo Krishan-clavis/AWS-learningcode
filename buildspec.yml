@@ -16,7 +16,7 @@ phases:
       - echo "we are in the build block"
       - echo "we will run some tests"
       - mkdir -p build_output
-      - grep -Fq "Congratulations" index.html
+      - grep -Fq "Welcome to AWS" index.html
 
   post_build:
     commands:
