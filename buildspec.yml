@@ -20,7 +20,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Uploading artifacts to S3..."
+      - echo "Uploading artifacts to S3...."
       - aws s3 cp build_output/ s3://s3logfile645/build-artifacts/ --recursive
       - pwd
       - ls
