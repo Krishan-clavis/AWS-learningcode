@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo "Uploading artifacts to S3..."
-      - aws s3 cp build_output/ s3://atifactstore-file01/build-artifacts/ --recursive
+      #- aws s3 cp build_output/ s3://atifactstore-file01/build-artifacts/ --recursive
       - pwd
       - ls
 
